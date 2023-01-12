@@ -19,7 +19,7 @@ My Fiverr client wanted to buy 100 homes in a single US county for the purpose o
 
 * Next I found those points that are Pareto optimal. These are counties where improvements in one criterion (population, ratio) do not lead to losses in the other criterion. The set of optimal solutions is the Pareto front, which is given by the red line. 
 
-* Finally, my client had success in buying property in Cuyahoga County (orange diamond), so he wanted me to identify counties that were similar to it. To find these counties, I found those counties that had the smallest euclidean distance from Cuyahoga County in the following plot (orange points). As the 2 axes have different units, I rescaled them so that they were weighed equally. 
+* Finally, my client had success in buying property in Cuyahoga County (orange diamond), so he wanted me to identify counties that were similar to it. To find these counties, I found those counties that had the smallest euclidean distance from Cuyahoga County in the following plot (orange points). As the 2 axes have different units, I rescaled them so each criterion was weighed equally. 
 
 <p align="center">
   <img src=https://user-images.githubusercontent.com/61156429/212129404-4fb64ff6-58b3-4d64-9e9f-202628315aac.png>
