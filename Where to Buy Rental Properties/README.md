@@ -3,7 +3,7 @@ Found US counties ideal for buying rental properties for Fiverr client
 
 ## Table of Contents
 
-* [Data]()
+* [Data](https://github.com/colinmichaellynch/Fiverr-Projects/blob/main/Where%20to%20Buy%20Rental%20Properties/SubsetOptimalStates.csv)
 
 * [Script]()
 
