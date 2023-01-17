@@ -4,9 +4,9 @@ Developing models to predict the location of seagrass off the coast of England.
 
 ## Table of Contents
 
-* [Data](https://github.com/colinmichaellynch/Fiverr-Projects/blob/main/Where%20to%20Buy%20Rental%20Properties/CountyInfo.csv)
+* Data could not be included due to size constraints within Github. 
 
-* [Script](https://github.com/colinmichaellynch/Fiverr-Projects/blob/main/Where%20to%20Buy%20Rental%20Properties/paretoOptimization.R)
+* [Script](https://github.com/colinmichaellynch/Fiverr-Projects/blob/main/Seagrass%20Species%20Dispersion%20Model/GAM_RF_MaxEnt_Models.R)
 
 ## Background
 
