@@ -31,7 +31,7 @@ Climate change can have complicated and sometimes unexpected effects on the dist
   - We remove rows of data that do not have entries (shown in white in previous plot)
 
 * We fit each model to the training set and then test predictions on the test set
-  - We measure test accuracy, ROC AUC, and the true positive rate 
+  - We measure test accuracy, ROC AUC, and the Brier score  
 
 ## Results 
 
@@ -39,6 +39,21 @@ Climate change can have complicated and sometimes unexpected effects on the dist
 
 ![predictionPlots](https://user-images.githubusercontent.com/61156429/212992694-f44daf54-e93b-4fed-b691-a29dc1b0ea2a.png)
 
+* The following is a table comparing the evaluation metrics of each model 
+
+| Model | Accuracy | ROC AUC | Brier Score | 
+| --- | --- | --- | --- |
+| Random Forest | 0.995 | 0.98 | 0.005 |
+| Max Entropy | 0.985 | 0.971 | 0.015 |
+| GAM | 0.973 | 0.946 | 0.035 |
+
+* We can see that random forest performs the best, but the other models perform extremely well 
+  - GAM predictions seem off at the southern end of the graph though. This combined with worse metrics indicates that this model should not be used. 
+
+* This is an indication that eelgrass is extremely sensitive to environmental conditions, as these factors strongly predict where the eelgrass will be. 
+
+* Given the high verification accuracy of these models, they can be incorporated into a larger data and model pipeline where ecologists will try to predict where these species will distribute themselves with changes in the climate. The end goal of this pipeline will be to estimate future carbon dioxide absorption rates around England, temperature in this same region, and other factors which will influence the English countryside.  
+
 ## Acknowledgements
 
-I would like to thank Ahmed Koptan and Carlos Orellana for their help in implementing this algorithm in Python. I would also like to thank [Cole Busby](https://github.com/ColeBusbyMedTech) for testing this algorithm on different datasets. 
+I would like to thank the Fiverr user leafygreens27 for the project idea and for general guidance as to the purpose of these models. 
