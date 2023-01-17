@@ -56,4 +56,4 @@ Climate change can have complicated and sometimes unexpected effects on the dist
 
 ## Acknowledgements
 
-I would like to thank the Fiverr user leafygreens27 for the project idea and for general guidance as to the purpose of these models. 
+I would like to thank the Fiverr user leafygreens27 for the project idea, for general guidance as to the purpose of these models, and for providing some reference code. 
