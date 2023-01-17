@@ -28,7 +28,7 @@ Climate change can have complicated and sometimes unexpected effects on the dist
 
 * To create training and test sets of data, we randomly select grid squares which have eelgrass (so the response variable is 1) and other grid squares which do not have eelgrass (response variable is 0). 
   - As this dataset is imbalanced (there are many more grid squares which do not have eelgrass), we sample an equal number of grid squares with and without eelgrass. 
-  - We remove rows of data that do not have entries (shown in white in previous plot)
+  - We remove rows of data that do not have entries (shown in white in previous plot).
 
 * We fit each model to the training set and then test predictions on the test set.
   - We measure test accuracy, ROC AUC, and the Brier score.
